@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: ebdf4777b1f56004a8c151f784895c7f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267428
+  packageName: Shared Demo Assets URP
+  packageVersion: 1.9.1
+  assetPath: Assets/NekoLegends/SharedAssets/Models/Neko/NekoDemo.fbx
+  uploadId: 814818
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a9e091ebae45d4846a9d70b3620cc2ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye
+    second: {fileID: 2100000, guid: 08339faa3f7ea8743b2635563b3991c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye2
+    second: {fileID: 2100000, guid: 08339faa3f7ea8743b2635563b3991c9, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: NekoDemo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: NekoDemo(Clone)
+      position: {x: 0, y: -0.034290742, z: 0.093297064}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 50.57341, y: 50.57341, z: 50.57341}
+    - name: root
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0.000007856264}
+      rotation: {x: 1, y: 1.7763568e-14, z: 0.00000007549791, w: -0.000000029802322}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: spine.001
+      parentName: root
+      position: {x: 5.633032e-10, y: -0.0022881418, z: -0.003730682}
+      rotation: {x: -0.08972332, y: 0.00002367037, z: -0.0000021459343, w: 0.9959668}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: hind leg.001.R
+      parentName: spine.001
+      position: {x: 0.0007174311, y: 0.00036399672, z: 0.0004768693}
+      rotation: {x: 0.68752676, y: 0.014647077, z: -0.012701545, w: 0.72590023}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999976}
+    - name: hind leg.002.R
+      parentName: hind leg.001.R
+      position: {x: 3.790774e-11, y: 0.0011074012, z: 1.5774276e-10}
+      rotation: {x: 0.3325728, y: -0.03931897, z: 0.0160922, w: 0.9421202}
+      scale: {x: 1, y: 0.9999989, z: 1}
+    - name: hind leg.003.R
+      parentName: hind leg.002.R
+      position: {x: -3.7252902e-11, y: 0.0014103339, z: 9.094947e-11}
+      rotation: {x: -0.44706634, y: 0.035303295, z: -0.011078018, w: 0.89373535}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000005}
+    - name: hind leg.003.R_end
+      parentName: hind leg.003.R
+      position: {x: -0, y: 0.0014103339, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: -5.7297006e-15, y: 0.0011006604, z: 4.842877e-10}
+      rotation: {x: -0.45511714, y: 0.0000006372793, z: -0.000022027274, w: 0.89043164}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: -3.2327656e-15, y: 0.0012722523, z: 2.690649e-10}
+      rotation: {x: 0.024246147, y: -0.00000035781224, z: 0.0000011821681, w: 0.99970603}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: neck
+      parentName: spine.003
+      position: {x: 4.767729e-14, y: 0.0014518437, z: 7.4505804e-11}
+      rotation: {x: -0.17063537, y: -1.4466648e-11, z: -0.000008258579, w: 0.98533434}
+      scale: {x: 0.99999994, y: 1, z: 1.0000004}
+    - name: head
+      parentName: neck
+      position: {x: -1.0707513e-14, y: 0.0007074241, z: 1.11758706e-10}
+      rotation: {x: 0.11394849, y: 0.0000027205283, z: 0.0000058270234, w: 0.9934867}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.9999999}
+    - name: eye
+      parentName: head
+      position: {x: 0.00000005127759, y: 0.0011783014, z: -0.000951775}
+      rotation: {x: -0.0075758975, y: -0.000026265552, z: -0.0000002091619, w: 0.9999714}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1.0000002}
+    - name: eye_end
+      parentName: eye
+      position: {x: -0, y: 0.0017003268, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L
+      parentName: head
+      position: {x: -0.0015100203, y: 0.00026319784, z: -0.00093798834}
+      rotation: {x: -0.007575808, y: -0.000025907833, z: -0.00000019809836, w: 0.9999714}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1.0000002}
+    - name: ear.L_end
+      parentName: ear.L
+      position: {x: -0, y: 0.001700327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R
+      parentName: head
+      position: {x: 0.0015101214, y: 0.000263198, z: -0.00093782565}
+      rotation: {x: -0.007575808, y: -0.000027966116, z: -0.0000001825044, w: 0.9999714}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1.0000002}
+    - name: ear.R_end
+      parentName: ear.R
+      position: {x: -0, y: 0.001700327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue
+      parentName: head
+      position: {x: -0.000000020317774, y: 0.0016500492, z: 0.00037712397}
+      rotation: {x: -0.007575808, y: -0.000026384765, z: -0.00000020826037, w: 0.9999714}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1.0000002}
+    - name: tongue_end
+      parentName: tongue
+      position: {x: -0, y: 0.001700327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foreleg.001.L
+      parentName: spine.003
+      position: {x: 2.628137e-11, y: 0.0014518437, z: 7.4507074e-11}
+      rotation: {x: 0.5178034, y: -0.3962855, z: 0.03669231, w: 0.757292}
+      scale: {x: 0.9999997, y: 1.0000006, z: 0.9999999}
+    - name: foreleg.002.L
+      parentName: foreleg.001.L
+      position: {x: -3.7252902e-11, y: 0.0015398227, z: -1.9557773e-10}
+      rotation: {x: 0.49531582, y: -0.28043368, z: 0.12448007, w: 0.8127262}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000002}
+    - name: foreleg.003.L
+      parentName: foreleg.002.L
+      position: {x: -3.608875e-11, y: 0.0013280308, z: -1.3504177e-10}
+      rotation: {x: -0.6816261, y: -0.03815192, z: -0.015126357, w: 0.7305488}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: foreleg.003.L_end
+      parentName: foreleg.003.L
+      position: {x: -0, y: 0.0013280305, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foreleg.001.R
+      parentName: spine.003
+      position: {x: 8.3388865e-11, y: 0.0014518433, z: 1.3038919e-10}
+      rotation: {x: 0.51780504, y: 0.39624876, z: -0.03666721, w: 0.75731134}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000005}
+    - name: foreleg.002.R
+      parentName: foreleg.001.R
+      position: {x: -1.11758706e-10, y: 0.0015398228, z: 6.519258e-11}
+      rotation: {x: 0.4953161, y: 0.28043336, z: -0.1244801, w: 0.8127262}
+      scale: {x: 1.0000006, y: 1, z: 1.0000001}
+    - name: foreleg.003.R
+      parentName: foreleg.002.R
+      position: {x: -1.9790605e-11, y: 0.0013280311, z: -1.4901161e-10}
+      rotation: {x: -0.681626, y: 0.03815203, z: 0.015126195, w: 0.7305489}
+      scale: {x: 1, y: 1.0000005, z: 1.0000007}
+    - name: foreleg.003.R_end
+      parentName: foreleg.003.R
+      position: {x: -0, y: 0.0013280306, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hind leg.001.L
+      parentName: spine.001
+      position: {x: -0.00071747653, y: 0.00036399672, z: 0.0004768009}
+      rotation: {x: 0.6875262, y: -0.014681674, z: 0.0127343405, w: 0.7258994}
+      scale: {x: 0.9999999, y: 1.0000008, z: 1.0000002}
+    - name: hind leg.002.L
+      parentName: hind leg.001.L
+      position: {x: -2.1245795e-11, y: 0.001107402, z: 9.1386024e-11}
+      rotation: {x: 0.33257303, y: 0.039318986, z: -0.016092308, w: 0.9421201}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1}
+    - name: hind leg.003.L
+      parentName: hind leg.002.L
+      position: {x: -5.5879353e-11, y: 0.0014103339, z: 4.2055033e-11}
+      rotation: {x: -0.4470664, y: -0.0353033, z: 0.011078142, w: 0.8937353}
+      scale: {x: 1.0000001, y: 0.9999994, z: 1.0000004}
+    - name: hind leg.003.L_end
+      parentName: hind leg.003.L
+      position: {x: -0, y: 0.0014103344, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail.001
+      parentName: spine.001
+      position: {x: 1.2562517e-12, y: 0, z: 6.7055234e-10}
+      rotation: {x: -0.91317755, y: -0.000009716286, z: -0.0000217689, w: 0.40756184}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999994}
+    - name: tail.002
+      parentName: tail.001
+      position: {x: -2.3283063e-11, y: 0.0008855788, z: -5.158493e-11}
+      rotation: {x: 0.025636017, y: 0.00002383683, z: 0.00000061271004, w: 0.9996714}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: tail.003
+      parentName: tail.002
+      position: {x: -9.3132255e-12, y: 0.0007578531, z: -4.1167367e-10}
+      rotation: {x: 0.011282362, y: 0.000000007952622, z: 0.0000005361139, w: 0.9999364}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999994}
+    - name: tail.004
+      parentName: tail.003
+      position: {x: 1.0244548e-10, y: 0.00072550384, z: -3.9348377e-10}
+      rotation: {x: 0.021250594, y: 0.000000008835353, z: 0.0000010626629, w: 0.9997742}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: tail.004_end
+      parentName: tail.004
+      position: {x: -0, y: 0.0007255032, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hind leg.IK.L
+      parentName: Armature
+      position: {x: -0.0005638195, y: 0.0016735517, z: 0.00033171}
+      rotation: {x: 0.99990106, y: -0, z: -0.014068694, w: 0}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: hind leg.004.L
+      parentName: hind leg.IK.L
+      position: {x: 5.820769e-13, y: -3.2562397e-10, z: 9.3919636e-11}
+      rotation: {x: 0.18333788, y: -0.008423127, z: 0.116437584, w: 0.9760936}
+      scale: {x: 0.99999976, y: 1.0000008, z: 1.0000004}
+    - name: hind leg.004.L_end
+      parentName: hind leg.004.L
+      position: {x: -0, y: 0.00010000009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foreleg.IK.L
+      parentName: Armature
+      position: {x: -0.0004074068, y: -0.0016953563, z: 0.00035904578}
+      rotation: {x: 0.99960375, y: 9.313226e-10, z: 0.028147748, w: 0.00000008940697}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999997}
+    - name: foreleg.004.L
+      parentName: foreleg.IK.L
+      position: {x: -3.5623088e-10, y: 5.6270316e-10, z: 4.27083e-11}
+      rotation: {x: 0.19221811, y: -0.037190355, z: 0.057434708, w: 0.9789639}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: foreleg.004.L_end
+      parentName: foreleg.004.L
+      position: {x: -0, y: 0.00010000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hind leg.IK.R
+      parentName: Armature
+      position: {x: 0.0005638195, y: 0.0016735517, z: 0.00033171}
+      rotation: {x: 0.99990106, y: -0, z: 0.014068694, w: 0}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: hind leg.004.R
+      parentName: hind leg.IK.R
+      position: {x: 1.00699254e-10, y: -6.236472e-10, z: 4.6994114e-10}
+      rotation: {x: 0.18333788, y: 0.008423127, z: -0.116437584, w: 0.9760936}
+      scale: {x: 0.99999976, y: 1.0000008, z: 1.0000004}
+    - name: hind leg.004.R_end
+      parentName: hind leg.004.R
+      position: {x: -0, y: 0.00010000009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foreleg.IK.R
+      parentName: Armature
+      position: {x: 0.0004074068, y: -0.0016953563, z: 0.00035904578}
+      rotation: {x: 0.99960375, y: -9.313226e-10, z: -0.028147748, w: 0.00000008940697}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999997}
+    - name: foreleg.004.R
+      parentName: foreleg.IK.R
+      position: {x: -7.916242e-11, y: -6.2938976e-10, z: -3.8104334e-10}
+      rotation: {x: 0.19221811, y: 0.037190355, z: -0.057434708, w: 0.9789639}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: foreleg.004.R_end
+      parentName: foreleg.004.R
+      position: {x: -0, y: 0.00010000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye
+      parentName: NekoDemo(Clone)
+      position: {x: -1.1368682e-14, y: 0.20396917, z: 0.17290908}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 25.286705, y: 25.286705, z: 25.286705}
+    - name: cat
+      parentName: NekoDemo(Clone)
+      position: {x: -1.3642421e-14, y: 0.052932017, z: -0.00000000862372}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 25.286705, y: 25.286705, z: 25.286705}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
