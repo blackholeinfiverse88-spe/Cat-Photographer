@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Garden cafe.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 936eb6b840d1d1740b65cb9d3bf3ea11
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: ec9089ba87c5fe84b8cd25429787e973
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 053e7a9706c25234c8e8a5b921b891a2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
